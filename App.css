@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(124, 57, 57) , rgb(111, 44, 44));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectbox{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.selectcontact ul{
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.selectbox img{
+    width: 20px;
+}
+.selectcontact img{
+    width: 20px;
+}
+.selectcontact li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.selectcontact li:hover{
+    background-color: antiquewhite;
+}
+.hide{
+    visibility: hidden;
+}
